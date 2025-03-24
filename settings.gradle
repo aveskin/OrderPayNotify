@@ -1,2 +1,5 @@
 rootProject.name = 'OrderPayNotifyMicro'
 
+includeBuild 'eureka-server'
+includeBuild 'order-microservice'
+
