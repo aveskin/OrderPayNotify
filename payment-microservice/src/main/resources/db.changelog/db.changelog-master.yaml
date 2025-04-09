@@ -1,0 +1,7 @@
+databaseChangeLog:
+  - include:
+      file: 0.0.1/changelog-create-payment-schema.sql
+      relativeToChangelogFile: true
+#  - include:
+#      file: 0.0.1/changelog-create-payments-table.sql
+#      relativeToChangelogFile: true
