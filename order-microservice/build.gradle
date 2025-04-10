@@ -35,6 +35,9 @@ dependencies {
 	testImplementation 'org.testcontainers:postgresql'
 	implementation 'org.springframework.kafka:spring-kafka:3.3.0'
 	implementation 'org.springframework.kafka:spring-kafka-test:3.3.0'
+	implementation 'org.springframework.boot:spring-boot-starter-actuator'
+	implementation 'de.codecentric:spring-boot-admin-starter-client:2.4.3'
+
 
 	implementation 'org.springframework.boot:spring-boot-starter-web'
 	implementation 'org.springframework.cloud:spring-cloud-starter-netflix-eureka-client'

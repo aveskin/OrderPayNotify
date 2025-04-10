@@ -1,0 +1,7 @@
+databaseChangeLog:
+  - include:
+      file: 0.0.1/changelog-create-security-schema.sql
+      relativeToChangelogFile: true
+  - include:
+      file: 0.0.1/changelog-create-users-table.sql
+      relativeToChangelogFile: true
